@@ -20,10 +20,10 @@ class CarreBlock(Flowable):
         c.setStrokeColor(colors.lightblue)
         c.setLineWidth(0.3)
         while y <= self.height - 3:    
-            c.line(0, y, self.width - 10, y)
+            c.line(0, y, self.width - 7, y)
             y += self.line_gap
 
         x = 0.0
         while x <= self.width - 3:
-            c.line(x, 0, x, self.height - 10)
+            c.line(x, 0, x, self.height - 5)
             x += self.line_gap
